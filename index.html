@@ -1,21 +1,53 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Belle De Vie — Clanfield, Hampshire</title><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
-<style>body{margin:0;font-family:'Playfair Display',system-ui,sans-serif;background:#fff7ed;color:#222}
-nav{display:flex;justify-content:space-between;padding:16px 22px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06)} nav a{color:#7c2d12;text-decoration:none;font-weight:700;margin-left:14px}
-.hero{padding:40px 22px} .hero img{width:100%;max-height:420px;object-fit:cover;border-radius:20px}
-.hero.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center} .hero.split img{height:380px}
-.hero.dark{background:#111;color:#fff} .hero.dark img{opacity:.85} .hero.full{position:relative;padding:0} .hero.full img{max-height:70vh} .hero.full div{position:absolute;bottom:30px;left:24px;color:#fff;text-shadow:0 2px 12px #000}
-.hero.center{text-align:center} .hero.center img{max-width:720px;margin:20px auto;display:block}
-h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05} .btn{display:inline-block;background:#7c2d12;color:#fff;padding:13px 26px;border-radius:20px;text-decoration:none;font-weight:800}
-section{max-width:1080px;margin:auto;padding:36px 22px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-.svc{background:#fff;padding:20px;border-radius:20px;box-shadow:0 6px 18px rgba(0,0,0,.07);transition:.3s} .svc:hover{transform:translateY(-6px)} .svc a{color:#7c2d12;font-weight:700;text-decoration:none}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px} .gallery img{width:100%;height:200px;object-fit:cover;border-radius:20px}
-.reveal{animation:fadeup .8s ease both} @keyframes fadeup{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
-.note{background:#fef3c7;padding:12px;border-radius:10px;text-align:center;margin-top:24px}
-@media(max-width:700px){.hero.split{grid-template-columns:1fr}}
-</style></head><body><nav><strong>Belle De Vie</strong><span><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#book">Book</a></span></nav>
-<header class="hero split"><div><h1>Belle De Vie</h1><p>Clanfield, Hampshire</p><p>A new look, made for Belle De Vie — Warm gold, split hero.</p><a class="btn" href="#book">Book now</a></div><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80" alt="Belle De Vie"></header>
-<section id="services"><h2>Services at Belle De Vie</h2><div class="grid reveal"><div class="svc"><h3>Cutting & Colour</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div><div class="svc"><h3>Balayage</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div><div class="svc"><h3>Bridal Hair & Make-up</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div><div class="svc"><h3>Facials</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div></div></section>
-<section id="gallery"><h2>Gallery</h2><div class="gallery"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&q=80" alt="Belle De Vie" loading="lazy"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80" alt="Belle De Vie" loading="lazy"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=1200&q=80" alt="Belle De Vie" loading="lazy"><img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=1200&q=80" alt="Belle De Vie" loading="lazy"></div></section>
-<section id="book"><div style="background:#7c2d12;color:#fff;padding:36px;border-radius:20px;text-align:center"><h2>Visit Belle De Vie in Clanfield, Hampshire</h2><p>Warm gold, split hero — designed uniquely for this salon.</p><a class="btn" style="background:#fff;color:#7c2d12" href="#">Book now →</a></div><div class="note">Demo concept only — not the salon's official website. Photos are illustrative stock photos.</div></section>
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Belle De Vie — Clanfield, Hampshire | Redesign Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Cormorant Garamond',serif;background:#fff7ed;color:#222}
+.banner{background:#111;color:#fff;text-align:center;padding:12px 16px;font-weight:700;font-size:15px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+nav b{font-family:'Cormorant Garamond',serif;font-size:22px;color:#9a3412}
+nav a{color:#9a3412;text-decoration:none;font-weight:700;margin-left:14px}
+.hero{padding:38px 22px;max-width:1080px;margin:0 auto}
+.hero img{width:100%;border-radius:20px;object-fit:cover;max-height:420px}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;color:#9a3412}
+.hero p.lead{font-size:19px;line-height:1.6}
+.btn{display:inline-block;background:#9a3412;color:#fff;padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:700;margin:8px 8px 8px 0}
+.btn.ghost{background:#fff;color:#9a3412;border:2px solid #9a3412}
+section{max-width:1080px;margin:0 auto;padding:26px 22px}
+h2{font-family:'Cormorant Garamond',serif;color:#9a3412;font-size:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 4px 18px rgba(0,0,0,.07);transition:transform .25s}
+.card:hover{transform:translateY(-5px)}
+.prices{background:#fff;border-radius:16px;padding:8px 22px}
+.price{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.gallery img{width:100%;height:190px;object-fit:cover;border-radius:14px}
+.note{background:#fff8e1;border:1px solid #f0d98c;border-radius:12px;padding:16px}
+footer{background:#111;color:#ddd;text-align:center;padding:26px 18px;line-height:1.7}
+footer a{color:#fff}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.hero,section{animation:fade .7s ease both}
+</style></head><body>
+<div class="banner">Demo concept only — a redesign preview of Belle De Vie’s website, not their full official site</div>
+<nav><b>Belle De Vie</b><span><a href="#services">Services</a><a href="#visit">Visit</a></span></nav>
+<div class="hero">
+<h1>Award-winning hair and beauty, in Clanfield.</h1>
+<p class="lead">Belle De Vie in Clanfield is a triple-award salon: Best Hair and Beauty Salon in Hampshire 2021, and Best Hair Salon and Best Beauty Salon in Hampshire 2025 — with a membership scheme offering up to 25% off treatments.</p>
+<img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80" alt="Salon interior — illustrative stock photo">
+<p><a class="btn" href="https://www.belle-de-vie.co.uk/">Visit the salon&#x27;s real website →</a>
+<a class="btn ghost" href="tel:+442392593999">Call 02392 593999</a></p>
+<p class="note">This demo does not take bookings. It previews a redesign &mdash; booking stays with the salon&rsquo;s real website and phone, exactly as today.</p>
+</div>
+<section id="services"><h2>What we do</h2><div class="grid"><div class="card"><h3>Hair</h3><p>Ladies&#x27; haircut and colour, including balayage, plus male grooming.</p></div><div class="card"><h3>Bridal &amp; occasions</h3><p>Bridal and special-occasion hair and make-up.</p></div><div class="card"><h3>Nails &amp; skin</h3><p>Manicures and pedicures, facials and skin care.</p></div><div class="card"><h3>Massage &amp; holistic</h3><p>Massage and holistic therapies, plus tanning with Sienna X vegan-friendly products.</p></div></div></section>
+
+<section><h2>What this redesign fixes</h2><ul><li>Long service paragraphs become short cards with a one-line benefit each.</li><li>Awards and the membership scheme stay front and centre — they are the salon&#x27;s strongest trust signals.</li><li>Phone and email and a “request an appointment” button now sit at the top as well as the bottom.</li><li>No prices are invented: the homepage shows none, and the membership cost is not given there either.</li></ul></section>
+<section><h2>Gallery</h2><div class="gallery">
+<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&q=80" alt="Hair styling — illustrative stock photo">
+<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&q=80" alt="Salon treatment — illustrative stock photo">
+<img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=1200&q=80" alt="Salon detail — illustrative stock photo">
+</div><p>Photos are illustrative stock photos, not photos of this salon.</p></section>
+<section id="visit"><h2>Visit us</h2><p>Clanfield, Hampshire</p><p>Phone: 02392 593999 · Email: belledevie17@gmail.com</p><p>Contact form on the real website aims to reply within 24 hours (not guaranteed).</p><p>Opening hours are not shown here, as none was in the salon&#x27;s homepage fetch — please call to check.</p><p>Brands mentioned on the real site: Montebello, Mavala, CND Shellac, Sienna X.</p></section>
+<footer><div class="banner">Demo concept only — a redesign preview of Belle De Vie’s website, not their full official site</div><br>Demo concept only. Photos are illustrative stock photos.
+<br>Real website: <a href="https://www.belle-de-vie.co.uk/">https://www.belle-de-vie.co.uk/</a></footer>
 </body></html>
